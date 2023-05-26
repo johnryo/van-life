@@ -33,6 +33,7 @@ body {
 header {
   height: 110px;
   display: flex;
+  /* justify-content: space-between; */
   align-items: center;
   padding-block: 10px;
 }
@@ -200,6 +201,7 @@ footer {
 /*** VAN PAGES ***/
 .van-list-container {
   padding-inline: 23px;
+  margin-block-end: 2rem;
 }
 
 .van-list-filter-buttons {
@@ -232,6 +234,10 @@ footer {
 .van-list-container button {
   margin-right: 20px;
   cursor: pointer;
+}
+
+.van-info span {
+  font-weight: 700;
 }
 
 .van-type {
@@ -292,6 +298,7 @@ i[class*='van-type-'] {
 
 .van-detail-container {
   padding-inline: 27px;
+  margin-block-end: 27px;
 }
 
 .van-detail-container .back-button {

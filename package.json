@@ -1,5 +1,5 @@
 {
-  "name": "rr6",
+  "name": "van-life",
   "private": true,
   "version": "0.1.0",
   "type": "module",
@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "miragejs": "^0.1.47",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.2"
